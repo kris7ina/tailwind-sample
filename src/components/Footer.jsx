@@ -21,7 +21,7 @@ const Footer = () => {
           <FaGithubSquare size={30} className='cursor-pointer' />
         </div>
       </div>
-      <div className='flex justify-between md:mt-6 md:ml-20 md:col-span-2'>
+      <div className='flex justify-between md:mt-6 md:ml-32 md:col-span-2'>
         
         <div>
           <h6 className='font-medium text-gray-400'>Solutions</h6>
@@ -48,19 +48,19 @@ const Footer = () => {
           <ul>
             <li className='pb-2 pt-4 text-sm cursor-pointer'>About</li>
             <li className='py-2 text-sm cursor-pointer'>Blog</li>
-            <li className='py-2 text-sm cursor-pointer'>Jobs</li>
-            <li className='py-2 text-sm cursor-pointer'>Press</li>
+            <li className='py-2 text-sm cursor-pointer'>Policy</li>
+            <li className='py-2 text-sm cursor-pointer'>Terms</li>
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <h6 className='font-medium text-gray-400'>Legal</h6>
           <ul>
             <li className='pb-2 pt-4 text-sm cursor-pointer'>Claims</li>
             <li className='py-2 text-sm cursor-pointer'>Policy</li>
             <li className='py-2 text-sm cursor-pointer'>Terms</li>
           </ul>
-        </div>
+        </div> */}
 
       </div>
       <p className='text-xs text-gray-400'>Designed & developed by Kristina Rulina © 2023</p>
