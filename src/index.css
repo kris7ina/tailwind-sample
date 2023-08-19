@@ -11,6 +11,10 @@ body {
   font-family: 'Wix Madefor Display';
 }
 
-h1, h2 {
+h1 {
   font-family: 'Syne';
+}
+
+h2 {
+  font-weight: 600;
 }
