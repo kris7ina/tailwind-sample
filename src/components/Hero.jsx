@@ -26,7 +26,7 @@ const Hero = () => {
           />
           </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500 px-6'>Monitor your data analytics to increase revenue for D2C, BTB & SaaS platforms</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black hover:scale-105 hover:bg-[#4efac4] duration-300'>Get Started</button>
+        <button className='bg-[#00df9a] w-[200px] rounded-xl font-medium my-6 mx-auto px-6 py-3 text-black hover:scale-105 hover:bg-[#4efac4] duration-300'>Get Started</button>
       </div>
     </div>
   )

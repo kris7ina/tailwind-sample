@@ -14,10 +14,10 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
         <li className='p-4 cursor-pointer'>Home</li>
         <li className='p-4 cursor-pointer'>Company</li>
-        <li className='p-4 cursor-pointer'>Resources</li>
-        <li className='p-4 cursor-pointer'>About</li>
-        <li className='p-4 cursor-pointer'>Contact</li>
+        <li className='p-4 cursor-pointer'>Solutions</li>
+        <li className='p-4 cursor-pointer'>Blog</li>
       </ul>
+      <button className='hidden md:block bg-white w-[270px] rounded-xl font-medium mx-auto px-2 py-2 ml-3 text-black hover:scale-105 hover:bg-gray-200 duration-300'>Contact Us</button>
       <div onClick={handleNav} className='block md:hidden cursor-pointer'>
         {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}  
       </div>
@@ -26,8 +26,8 @@ const Navbar = () => {
         <ul className='pt-12 uppercase font-syne'>
           <li className='p-4 pb-6 border-b border-gray-900 cursor-pointer'>Home</li>
           <li className='p-4 py-6 border-b border-gray-900 cursor-pointer'>Company</li>
-          <li className='p-4 py-6 border-b border-gray-900 cursor-pointer'>Resources</li>
-          <li className='p-4 py-6 border-b border-gray-900 cursor-pointer'>About</li>
+          <li className='p-4 py-6 border-b border-gray-900 cursor-pointer'>Solutions</li>
+          <li className='p-4 py-6 border-b border-gray-900 cursor-pointer'>Blog</li>
           <li className='p-4 py-6 cursor-pointer'>Contact</li>
         </ul>
       </div>
