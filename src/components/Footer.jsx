@@ -53,15 +53,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* <div>
-          <h6 className='font-medium text-gray-400'>Legal</h6>
-          <ul>
-            <li className='pb-2 pt-4 text-sm cursor-pointer'>Claims</li>
-            <li className='py-2 text-sm cursor-pointer'>Policy</li>
-            <li className='py-2 text-sm cursor-pointer'>Terms</li>
-          </ul>
-        </div> */}
-
       </div>
       <p className='text-xs text-gray-400'>Designed & developed by Kristina Rulina © 2023</p>
     </div>
