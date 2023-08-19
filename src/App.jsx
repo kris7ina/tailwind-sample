@@ -10,7 +10,7 @@ function App() {
   
   return (
     <>
-    <div className='animate-fade-down animate-once animate-duration-[3000ms] animate-delay-200'>
+    <div className='animate-fade animate-once animate-duration-[3000ms] animate-delay-200'>
       <Navbar />
       <Hero />
     </div>

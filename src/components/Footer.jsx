@@ -63,6 +63,7 @@ const Footer = () => {
         </div>
 
       </div>
+      <p className='text-xs text-gray-400'>Designed & developed by Kristina Rulina © 2023</p>
     </div>
   )
 }
