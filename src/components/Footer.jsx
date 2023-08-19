@@ -12,7 +12,7 @@ const Footer = () => {
     <div className='max-w-[1040px] mx-auto py-16 px-8 grid md:grid-cols-3 gap-8 text-gray-300'>
       <div>
         <h1 className='w-full text-3xl text-[#00df9a] cursor-pointer'>METRIQ.</h1>
-        <p className='py-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p className='py-4'>Unlocking Insights, Powering Growth. Your partner in data analytics, driving informed decisions and unleashing the potential of your data.</p>
         <div className='flex md:w-[90%] my-6 justify-between'>
           <FaFacebookSquare size={30} className='cursor-pointer' />
           <FaInstagram size={30} className='cursor-pointer' />
